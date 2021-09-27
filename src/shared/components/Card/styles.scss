@@ -1,0 +1,22 @@
+@import "../../assets/_variables.scss";
+
+.card__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-tracks: flex-start;
+}
+
+.card__margin {
+  &--heading {
+    margin-bottom: $spacing-size-xxxs;
+  }
+
+  &--subtitle {
+    margin-bottom: $spacing-size-xxs;
+  }
+
+  &--paragraph {
+    margin-bottom: $spacing-size-sm;
+  }
+}

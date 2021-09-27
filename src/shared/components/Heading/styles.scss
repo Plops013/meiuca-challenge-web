@@ -1,0 +1,10 @@
+@import "../../assets/_variables.scss";
+
+.heading {
+    font-size: $font-size-lg;
+    font-family: $font-family-highlight;
+    color: $neutral-color-1;
+    font-weight: $font-weight-bold;
+    line-height: $line-height-distant;
+    text-align: left;
+}

@@ -1,0 +1,10 @@
+@import "../../assets/_variables.scss";
+
+.paragraph {
+  font-size: $font-size-xs;
+  font-family: $font-family-highlight;
+  color: $neutral-color-2;
+  font-weight: $font-weight-regular;
+  line-height: $line-height-distant;
+  text-align: left;
+}

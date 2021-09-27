@@ -1,0 +1,14 @@
+@import './shared/assets/_variables.scss';
+.app__container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.card__container {
+  padding: $spacing-size-md;
+}

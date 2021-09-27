@@ -1,0 +1,29 @@
+@import "../../shared/assets/_variables.scss";
+
+.news {
+  &__heading {
+    padding: $spacing-size-md;
+    padding-bottom: 0px;
+  }
+
+  &__title {
+    padding-bottom: 0px;
+    background-color: $brand-color-primary-5;
+    margin: auto;
+    padding: 8px 16px;
+    margin-top: $spacing-size-md;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1440px;
+    margin: auto;
+  }
+}
+
+.card__container {
+  padding: $spacing-size-md;
+}

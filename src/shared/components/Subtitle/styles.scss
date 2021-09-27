@@ -1,0 +1,10 @@
+@import '../../assets/_variables.scss';
+
+.subtitle {
+    font-size: $font-size-md;
+    font-family: $font-family-highlight;
+    color: $neutral-color-2;
+    font-weight: $font-weight-medium;
+    line-height: $line-height-medium;
+    text-align: left;
+}

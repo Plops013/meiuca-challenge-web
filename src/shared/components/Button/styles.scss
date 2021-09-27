@@ -1,0 +1,23 @@
+@import '../../assets/_variables.scss';
+
+.button {
+    font-size: $font-size-sm;
+    line-height: $line-height-tight;
+    border-radius: $radius-size-none;
+    padding: $spacing-squish-size-xs-v $spacing-squish-size-xs-h;
+
+    font-family: $font-family-highlight;
+    font-weight: $font-weight-medium;
+    color: $neutral-color-5;
+    background-color: $brand-color-primary-3;
+    transition-duration: 0.25s;
+
+    border: none;
+    width: fit-content;
+
+    &:hover {
+        background-color: $brand-color-primary-2;
+        cursor: pointer;
+    }
+
+}
